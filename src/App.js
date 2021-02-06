@@ -7,6 +7,7 @@ import Clock from './components/clock/Clock';
 import Contact from './components/contact/Contact';
 import Navigation from './components/navigation/Navigation';
 import ErrorPage from './components/error/ErrorPage';
+//import Jeopardy from './components/jeopardy/Jeopardy';
 
 function App() {
   return (
@@ -22,6 +23,9 @@ function App() {
       <Route path="/contact" component={Contact} />
       <Route path="/welcome/:name" component={Welcome} />
       <Route component= {ErrorPage} />
+
+      
+      
 
       </Switch>
     </div>
